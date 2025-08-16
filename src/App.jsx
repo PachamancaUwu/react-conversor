@@ -18,7 +18,7 @@ function App() {
 
     try {
       const res = await fetch(
-        `https://crudpractica-bcaqcxcyf6dvhgd8.brazilsouth-01.azurewebsites.net/api/getPractica?amount=${amount}&currency=${currency}&code=DL3UpmxEcOemrEtD3vgeRW_6NM9exNnTYAdMni5AmYaUAzFuAgHLyQ==`
+        `https://crudpractica-bcaqcxcyf6dvhgd8.brazilsouth-01.azurewebsites.net/api/getPractica?amount=${amount}&currency=${currency}&code=SXokGioQiZqlPDx73HKdSK-rILGrjYXbVc9FJXYUj0g6AzFu2NXnfg==`
       );
 
       let bodyText = await res.text();
